@@ -15,3 +15,5 @@ Experiment 10:acf2.py,caf2.py
 Experiment 11:acnn2.py,cann.py
 
 Optimal reward:optimal.py
+
+Example ac.py alpha1=0.95,beta1=0.75: python3 ac.py 0.95 0.75
