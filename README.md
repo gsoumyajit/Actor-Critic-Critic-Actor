@@ -6,7 +6,7 @@ Experiment 6:acf.py,caf.py
 
 Experiment 7:acnn.py,cann.py
 
-Experiment 8:acf1.py,caf1.py
+Experiment 8:acf1.py,caf1.py,qf1.py
 
 Experiment 9:acnn1.py,cann1.py
 
