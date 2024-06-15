@@ -49,7 +49,7 @@ for n in range(N):
     next_state,reward,_,_=env.step(action)
     delta=reward+gamma*np.dot(value,feat(next_state))-np.dot(value,feat(state))
     value+=b*delta*feat(state)
-    psi=phi(state,action)-np.sum([probs[k]*phi(state,k) for k in range(nA)])
+    psi=phi(state,action)-sum([probs[k]*phi(state,k) for k in range(nA)])
     if not random:
         theta+=a*psi*delta
     returns.append(reward)
